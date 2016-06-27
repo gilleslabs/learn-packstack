@@ -77,7 +77,7 @@ CONFIG_NTP_SERVERS=0.europe.pool.ntp.org,1.europe.pool.ntp.org,2.europe.pool.ntp
 # Specify 'y' to install Nagios to monitor OpenStack hosts. Nagios
 # provides additional tools for monitoring the OpenStack environment.
 # ['y', 'n']
-CONFIG_NAGIOS_INSTALL=y
+CONFIG_NAGIOS_INSTALL=n
 
 # Comma-separated list of servers to be excluded from the
 # installation. This is helpful if you are running Packstack a second
@@ -1136,7 +1136,7 @@ CONFIG_HEAT_DB_PW=PW_PLACEHOLDER
 
 # Encryption key to use for authentication in the Orchestration
 # database (16, 24, or 32 chars).
-CONFIG_HEAT_AUTH_ENC_KEY=743d98c5d5804bcd
+CONFIG_HEAT_AUTH_ENC_KEY=e88233ab1f5b45db
 
 # Password to use for the Orchestration service to authenticate with
 # the Identity service.
@@ -1304,4 +1304,4 @@ CONFIG_SAHARA_DB_PW=PW_PLACEHOLDER
 CONFIG_SAHARA_KS_PW=PW_PLACEHOLDER
 
 # Password of the nagiosadmin user on the Nagios server.
-CONFIG_NAGIOS_PW=ecf51b02f1444b3d
+CONFIG_NAGIOS_PW=PW_PLACEHOLDER
