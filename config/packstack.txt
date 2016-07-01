@@ -1136,7 +1136,7 @@ CONFIG_HEAT_DB_PW=PW_PLACEHOLDER
 
 # Encryption key to use for authentication in the Orchestration
 # database (16, 24, or 32 chars).
-CONFIG_HEAT_AUTH_ENC_KEY=e88233ab1f5b45db
+CONFIG_HEAT_AUTH_ENC_KEY=65bfde9308e54df4
 
 # Password to use for the Orchestration service to authenticate with
 # the Identity service.

@@ -32,7 +32,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.define servers['name'] do |srv|
   
   #Fix issue with rsync on Windows
-	srv.vm.synced_folder ".", "/home/vagrant/sync", type: "virtualbox"  
+	srv.vm.synced_folder ".", "/home/vagrant/sync", type: "nfs"  
   
   # Setting Box URL
   if servers.has_key?('box_url')
